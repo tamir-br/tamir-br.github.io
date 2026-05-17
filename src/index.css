@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist+Mono:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-brand-primary: #006768;
+  --color-brand-surface: #f6faf9;
+  --color-brand-ink: #181c1c;
+  --color-brand-muted: #6e7979;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-brand-surface text-brand-ink font-sans selection:bg-brand-primary/20;
+  }
+}
+
+@layer components {
+  .browser-window {
+    @apply bg-white border border-black/10 rounded-lg overflow-hidden shadow-sm;
+  }
+  .browser-dot {
+    @apply w-2.5 h-2.5 rounded-full;
+  }
+}

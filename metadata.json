@@ -1,0 +1,6 @@
+{
+  "name": "Tamir Biezuner Portfolio",
+  "description": "A minimalist, technical portfolio for a PhD entrepreneur and AI builder in genomics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
