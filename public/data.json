@@ -4,7 +4,7 @@
     "title": "Entrepreneur. AI builder. Genomics expert.",
     "intro": "I build at the intersection of genomics and AI.",
     "description": "Entrepreneur, builder and consultant. Co-founded **Sequentify**, a patent-backed genomics company that raised **$7M** and led development from R&D to an ISO 13485-accredited product. Today, building AI tools that matter.\n\nPassionate about science and technology.",
-    "avatarUrl": "/uploads/1779048776819-655592270-tamir-headshot.jpg",
+    "avatarUrl": "uploads/1779048776819-655592270-tamir-headshot.jpg",
     "links": [
       {
         "label": "Book a call",
@@ -87,11 +87,11 @@
         "React",
         "Python"
       ],
-      "image": "/uploads/1779049979612-136184938-logo_w_text.png",
+      "image": "uploads/1779049979612-136184938-logo_w_text.png",
       "url": "#",
       "learnMoreContent": "AI summarization and recommendation. save lab time X10. Rich text editing, sample registry with barcode generation, lab location management,  and semantic search.",
       "websiteUrl": "https://histone.bio",
-      "hoverImage": "/uploads/1779049988595-98738135-×¦×™×œ×•×  ×ž×¡×š 2026-05-13 105407.png"
+      "hoverImage": "uploads/1779049988595-98738135-_2026-05-13_105407.png"
     },
     {
       "id": "2",
@@ -102,12 +102,12 @@
         "NLP",
         "Elasticsearch"
       ],
-      "image": "/uploads/1779050017029-686513970-×¦×™×œ×•×  ×ž×¡×š 2026-05-17 202105.png",
+      "image": "uploads/1779050017029-686513970-_2026-05-17_202105.png",
       "url": "#",
       "websiteUrl": "https://postdoclookup.online",
       "learnMoreContent": "AI postdoc discovery — aggregates listings from EURAXESS, FindAPostDoc and others. Builds semantic researcher profiles, matches against 200K+ researcher profile, extracted and embedded to a pgvector database for fast search based on research field, location etc.\n",
       "videoUrl": "https://youtu.be/ICLEkD-I2ZY",
-      "hoverImage": "/uploads/1779050073218-615219733-main screen.png"
+      "hoverImage": "uploads/1779050073218-615219733-main_screen.png"
     },
     {
       "id": "6",
@@ -118,13 +118,13 @@
         "CAD",
         "Simulation"
       ],
-      "image": "/uploads/1779050090049-895818095-×¦×™×œ×•×  ×ž×¡×š 2026-05-17 203449.png",
+      "image": "uploads/1779050090049-895818095-_2026-05-17_203449.png",
       "url": "#",
       "websiteUrl": "https://KenChef.site",
       "videoUrl": "https://youtu.be/yOLUGjUV8l0?si=z-Mf2yKgh19h6uHF",
       "learnMoreContent": "KenChef - the AI cooking assistant that turns any dish idea into a beautifully illustrated, step-by-step recipe in seconds.\n                                                                                                                                  \n  Type any dish\n  Get AI-generated illustrations for every step\n  Listen - Each step is narrated for hands free kitchen work\n  ",
       "cardDescription": "AI cooking assistant app that turns any dish idea into a beautifully illustrated recipe.",
-      "hoverImage": "/uploads/1779050102264-53618247-receipe2.png"
+      "hoverImage": "uploads/1779050073218-615219733-main_screen.png"
     },
     {
       "id": "4",
@@ -135,12 +135,12 @@
         "D3.js",
         "Genomics"
       ],
-      "image": "/uploads/1779050219112-852967524-Gemini_Generated_Image_28tjfd28tjfd28tj.png",
+      "image": "uploads/1779050219112-852967524-Gemini_Generated_Image_28tjfd28tjfd28tj.png",
       "url": "#",
       "websiteUrl": "",
       "videoUrl": "https://youtu.be/3T3nd-bCaVA",
       "learnMoreContent": "Standalone single-file app for professional service providers — client management, work-type tagging, hours tracking, billing reports. No backend, no install.",
-      "hoverImage": "/uploads/1779050220355-258775066-2026-05-17 165445.png",
+      "hoverImage": "uploads/1779050220355-258775066-2026-05-17_165445.png",
       "cardDescription": "client management system"
     },
     {
@@ -152,11 +152,11 @@
         "Python",
         "Pharma"
       ],
-      "image": "/uploads/1779050489719-388246886-Gemini_Generated_Image_m25o2em25o2em25o.png",
+      "image": "uploads/1779050489719-388246886-Gemini_Generated_Image_m25o2em25o2em25o.png",
       "url": "#",
       "learnMoreContent": "Hebrew legal AI with adaptive questionnaire, RAG knowledge base, and dual-agent pipeline (Drafting Agent + Critic Agent). Hard stops for high-risk legal scenarios. Designed for a lawyer for lead generation.",
       "videoUrl": "https://youtu.be/Tsg-vdWSgx4",
-      "hoverImage": "/uploads/1779050502511-199160310-×¦×™×œ×•×  ×ž×¡×š 2026-05-17 181132.png",
+      "hoverImage": "uploads/1779050502511-199160310-_2026-05-17_181132.png",
       "cardDescription": "Legal AI contract generator (RAG + dual-agent)"
     },
     {
@@ -164,10 +164,10 @@
       "title": "Chrome extension - find the best bulk price per unit",
       "name": "Pack Saver",
       "tags": [],
-      "image": "/uploads/1779050460319-95640838-1400_Marqueez.jpg",
+      "image": "uploads/1779050460319-95640838-1400_Marqueez.jpg",
       "url": "#",
       "cardDescription": "Chrome extension that detects bulk product listings and surfaces the real per-unit cost, highlighting the best deal.\n",
-      "hoverImage": "/uploads/1779050465194-581665851-ChatGPT Image Oct 25, 2025, 10_35_38 PM.png",
+      "hoverImage": "uploads/1779050465194-581665851-ChatGPT_Image_Oct_25,_2025,_10_35_38_PM.png",
       "websiteUrl": "https://chromewebstore.google.com/detail/pack-saver-find-best-bulk/ielgindoagjdlamfkpioiokokfdhpmge",
       "videoUrl": "https://www.youtube.com/watch?v=cP961MSi1RQ&embeds_referring_euri=https%3A%2F%2Fchromewebstore.google.com%2F",
       "learnMoreContent": "Instantly find the best bulk deals. See price per item across Amazon, Walmart, AliExpress & Temu. Never overpay again!\n\nStop Overpaying for Bulk. See the Real Price with Pack Saver.\nYou know the feeling: you need to buy a multipack, but comparing the \"$6.99 for a 100-pack\" to the \"$15.99 for a 400-pack\" means pulling out a calculator. Shopping sites are designed to confuse you by sorting by total price, not by true value.\n\n🤔 The Problem: The smaller, seemingly cheaper pack is often 60% more expensive per item than the larger one—and you'd never know without tedious math.\n\n✅ The Pack Saver Solution: This extension instantly calculates the price per item for every bulk pack on the page. In seconds, you see which option genuinely saves you the most money.\n\n🎯 What You Get: Instant, Effortless Savings\nBest Deal Highlighted: A golden \"Best Value\" badge instantly points out the clear winner. No more guesswork.\n\nPrice Per Item: See the real cost comparison for every product.\n\nTop 3 Deals Ranked: Quickly compare the three most cost-effective choices.\n\nOne-Click Savings: Jump straight to the best-value item with a single click.\n\n💰 Supported Platforms:\nAmazon, Walmart, AliExpress, & Temu\n\n🔒 Privacy First: Zero Tracking, Always On\nPack Saver is a privacy-first tool. It performs all calculations directly in your browser. We have zero data collection, no tracking, and it works completely offline.\n\nStop overpaying for bulk. Install Pack Saver and let us find your real savings."
