@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Tamir Biezuner, PhD — Portfolio
 
-# Run and deploy your AI Studio app
+A polished, high-performance portfolio showcasing AI research, consulting commercial impact, and software engineering projects.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/f156af88-2bf6-4a4e-a3f8-11c7ed5fb879
+- **Modern Stack**: Built with React 18, TypeScript, and Vite.
+- **Polished Design**: Custom aesthetic with fluid animations using `motion` (framer-motion).
+- **Responsive**: Fully responsive design tailored for researchers and commercial partners.
+- **Dynamic Content**: Data-driven architecture for easy updates to research papers, projects, and consulting services.
+- **Interactive CMS**: Built-in visual editor (accessible via the edit icon in development) to manage statistics, projects, and profile data in real-time.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Framework**: [React](https://reactjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Motion](https://motion.dev/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Charts**: [Recharts](https://recharts.org/)
 
+## 📦 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/tamir-br/my-portfolio.git
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
+
+## 🌐 Deployment
+
+This portfolio is optimized for deployment to **GitHub Pages**, **Vercel**, or **Netlify**.
+
+If deploying to GitHub Pages:
+1. Ensure your `vite.config.ts` has the correct `base` path (e.g., `base: '/my-portfolio/'`).
+2. Use the `gh-pages` package or a GitHub Action to deploy the `dist` folder.
+
+## 📄 License
+
+MIT © [Tamir Biezuner](https://github.com/tamir-br)
