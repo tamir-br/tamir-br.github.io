@@ -4,7 +4,7 @@
     "title": "Entrepreneur. AI builder. Genomics expert.",
     "intro": "I build at the intersection of genomics and AI.",
     "description": "Entrepreneur, builder and consultant. Co-founded **Sequentify**, a patent-backed genomics company that raised **$7M** and led development from R&D to an ISO 13485-accredited product. Today, building AI tools that matter.\n\nPassionate about science and technology.",
-    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800",
+    "avatarUrl": "uploads/tamir-headshot.jpg",
     "links": [
       {
         "label": "Book a call",
@@ -87,11 +87,11 @@
         "React",
         "Python"
       ],
-      "image": "uploads/1779049988595-98738135-_2026-05-13_105407.png",
+      "image": "uploads/logo_w_text.png",
       "url": "#",
       "learnMoreContent": "AI summarization and recommendation. save lab time X10. Rich text editing, sample registry with barcode generation, lab location management,  and semantic search.",
       "websiteUrl": "https://histone.bio",
-      "hoverImage": "uploads/1779049988595-98738135-_2026-05-13_105407.png"
+      "hoverImage": "uploads/Histone screenshot.png"
     },
     {
       "id": "2",
@@ -102,12 +102,12 @@
         "NLP",
         "Elasticsearch"
       ],
-      "image": "uploads/1779050017029-686513970-_2026-05-17_202105.png",
+      "image": "uploads/postdoc lookup logo.png",
       "url": "#",
       "websiteUrl": "https://postdoclookup.online",
       "learnMoreContent": "AI postdoc discovery — aggregates listings from EURAXESS, FindAPostDoc and others. Builds semantic researcher profiles, matches against 200K+ researcher profile, extracted and embedded to a pgvector database for fast search based on research field, location etc.\n",
       "videoUrl": "https://youtu.be/ICLEkD-I2ZY",
-      "hoverImage": "uploads/1779050073218-615219733-main_screen.png"
+      "hoverImage": "uploads/postdoc screenshot.png"
     },
     {
       "id": "6",
@@ -118,13 +118,13 @@
         "CAD",
         "Simulation"
       ],
-      "image": "uploads/1779050090049-895818095-_2026-05-17_203449.png",
+      "image": "uploads/kenchef logo.png",
       "url": "#",
       "websiteUrl": "https://KenChef.site",
       "videoUrl": "https://youtu.be/yOLUGjUV8l0?si=z-Mf2yKgh19h6uHF",
       "learnMoreContent": "KenChef - the AI cooking assistant that turns any dish idea into a beautifully illustrated, step-by-step recipe in seconds.\n                                                                                                                                  \n  Type any dish\n  Get AI-generated illustrations for every step\n  Listen - Each step is narrated for hands free kitchen work\n  ",
       "cardDescription": "AI cooking assistant app that turns any dish idea into a beautifully illustrated recipe.",
-      "hoverImage": "uploads/1779050073218-615219733-main_screen.png"
+      "hoverImage": "uploads/receipe2.png"
     },
     {
       "id": "4",
@@ -135,12 +135,12 @@
         "D3.js",
         "Genomics"
       ],
-      "image": "uploads/1779050220355-258775066-2026-05-17_165445.png",
+      "image": "uploads/Management.png",
       "url": "#",
       "websiteUrl": "",
       "videoUrl": "https://youtu.be/3T3nd-bCaVA",
       "learnMoreContent": "Standalone single-file app for professional service providers — client management, work-type tagging, hours tracking, billing reports. No backend, no install.",
-      "hoverImage": "uploads/1779050220355-258775066-2026-05-17_165445.png",
+      "hoverImage": "uploads/management screenshot.png",
       "cardDescription": "client management system"
     },
     {
@@ -152,11 +152,11 @@
         "Python",
         "Pharma"
       ],
-      "image": "uploads/1779050502511-199160310-_2026-05-17_181132.png",
+      "image": "uploads/Contract logo.png",
       "url": "#",
       "learnMoreContent": "Hebrew legal AI with adaptive questionnaire, RAG knowledge base, and dual-agent pipeline (Drafting Agent + Critic Agent). Hard stops for high-risk legal scenarios. Designed for a lawyer for lead generation.",
       "videoUrl": "https://youtu.be/Tsg-vdWSgx4",
-      "hoverImage": "uploads/1779050502511-199160310-_2026-05-17_181132.png",
+      "hoverImage": "uploads/law screenshot.png",
       "cardDescription": "Legal AI contract generator (RAG + dual-agent)"
     },
     {
@@ -164,7 +164,7 @@
       "title": "Chrome extension - find the best bulk price per unit",
       "name": "Pack Saver",
       "tags": [],
-      "image": "uploads/1779050465194-581665851-ChatGPT_Image_Oct_25,_2025,_10_35_38_PM.png",
+      "image": "uploads/1779049704022-723130499-×¦×××× ××¡× 2026-05-13 105407.png",
       "url": "#",
       "cardDescription": "Chrome extension that detects bulk product listings and surfaces the real per-unit cost, highlighting the best deal.\n",
       "hoverImage": "uploads/1779050465194-581665851-ChatGPT_Image_Oct_25,_2025,_10_35_38_PM.png",
