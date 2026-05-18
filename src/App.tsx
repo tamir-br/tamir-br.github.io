@@ -102,6 +102,7 @@ function BrowserHeader() {
 export default function App() {
   const [data, setData] = useState<PortfolioData | null>(null);
   const [isEditing, setIsEditing] = useState(false);
+  const [showEditButton, setShowEditButton] = useState(false);
   const [editedData, setEditedData] = useState<PortfolioData | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [showAllProjects, setShowAllProjects] = useState(false);
@@ -110,7 +111,13 @@ export default function App() {
   const [showMoreBio, setShowMoreBio] = useState(false);
 
   useEffect(() => {
-    fetch("/data.json")
+    // Hidden edit mode: Type ?edit=true at the end of your URL to see the edit button
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('edit') === 'true' || params.get('admin') === 'true') {
+      setShowEditButton(true);
+    }
+
+    fetch("data.json")
       .then((res) => res.json())
       .then((json) => {
         setData(json);
@@ -127,7 +134,9 @@ export default function App() {
     if (!editedData) return;
     
     // If we're on a static host like GitHub Pages, saving to server won't work
-    if (window.location.hostname.includes("github.io")) {
+    const isStaticHost = window.location.hostname.includes("github.io") || window.location.hostname.includes("pages.dev");
+    
+    if (isStaticHost) {
       const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(editedData, null, 2));
       const downloadAnchorNode = document.createElement('a');
       downloadAnchorNode.setAttribute("href",     dataStr);
@@ -135,7 +144,7 @@ export default function App() {
       document.body.appendChild(downloadAnchorNode);
       downloadAnchorNode.click();
       downloadAnchorNode.remove();
-      alert("Note: This is a static site. I've downloaded the updated 'data.json' for you. Move it to your 'public' folder and push to GitHub to apply changes.");
+      alert("Note: GitHub Pages is a static host and cannot save files directly. \n\nI've downloaded the updated 'data.json' for you. \n1. Go to your GitHub repo.\n2. Upload this file into the 'public/' folder.\n3. Push the changes.");
       setData(editedData);
       setIsEditing(false);
       return;
@@ -202,13 +211,15 @@ export default function App() {
               <a href="#projects" className="px-3 py-2 rounded-full hover:bg-black/5 hover:text-brand-ink transition-all active:scale-95">Projects</a>
               <a href="#consulting" className="px-3 py-2 rounded-full hover:bg-black/5 hover:text-brand-ink transition-all active:scale-95">Consulting</a>
             </div>
-            <button 
-              onClick={() => setIsEditing(!isEditing)}
-              className="p-2 hover:bg-black/5 rounded-full transition-colors"
-              title="Toggle Edit Mode"
-            >
-              <Settings className={cn("w-4 h-4 transition-transform", isEditing && "rotate-90 text-brand-primary")} />
-            </button>
+            {showEditButton && (
+              <button 
+                onClick={() => setIsEditing(!isEditing)}
+                className="p-2 hover:bg-black/5 rounded-full transition-colors"
+                title="Toggle Edit Mode"
+              >
+                <Settings className={cn("w-4 h-4 transition-transform", isEditing && "rotate-90 text-brand-primary")} />
+              </button>
+            )}
             <a 
               href={data.profile.links.find(l => l.label.toLowerCase().includes('call'))?.url || "#"} 
               target="_blank"
@@ -774,7 +785,6 @@ export default function App() {
                         <div className="w-48 space-y-4">
                            <label className="text-[10px] font-mono uppercase text-brand-muted">Hero Image</label>
                            <div className="relative aspect-square rounded-xl overflow-hidden bg-brand-surface border border-dashed border-black/20 group">
-                              {/* Using state for profile image if I want to show preview immediately, or just rely on editedData */}
                               <img 
                                 src={editedData.profile.avatarUrl ? editedData.profile.avatarUrl : "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800"} 
                                 alt="Profile" 
@@ -792,6 +802,15 @@ export default function App() {
                                    onChange={async (e) => {
                                       const file = e.target.files?.[0];
                                       if (!file) return;
+
+                                      if (window.location.hostname.includes("github.io") || window.location.hostname.includes("pages.dev")) {
+                                        const manualPath = prompt("GitHub Pages is static. To add an image:\n1. Upload your file to 'public/uploads/' on GitHub.\n2. Enter the path here (e.g., uploads/my-image.jpg):", "uploads/" + file.name);
+                                        if (manualPath) {
+                                          setEditedData({...editedData!, profile: {...editedData!.profile, avatarUrl: manualPath}});
+                                        }
+                                        return;
+                                      }
+
                                       try {
                                         const formData = new FormData();
                                         formData.append("image", file);
@@ -811,6 +830,15 @@ export default function App() {
                                    }}
                                  />
                               </label>
+                           </div>
+                           <div className="space-y-1">
+                             <label className="text-[9px] font-mono uppercase text-brand-muted">Path Access</label>
+                             <input 
+                               value={editedData.profile.avatarUrl}
+                               onChange={e => setEditedData({...editedData!, profile: {...editedData!.profile, avatarUrl: e.target.value}})}
+                               className="w-full bg-white border border-black/10 px-2 py-1 rounded text-[10px] outline-none focus:border-brand-primary font-mono"
+                               placeholder="uploads/filename.jpg"
+                             />
                            </div>
                            <p className="text-[9px] font-mono text-brand-muted leading-tight">Recommended: Square, high-res portrait.</p>
                         </div>
@@ -961,6 +989,17 @@ export default function App() {
                                        onChange={async (e) => {
                                           const file = e.target.files?.[0];
                                           if (!file) return;
+
+                                          if (window.location.hostname.includes("github.io") || window.location.hostname.includes("pages.dev")) {
+                                            const manualPath = prompt("GitHub Pages is static. To add an image:\n1. Upload your file to 'public/uploads/' on GitHub.\n2. Enter the path here (e.g., uploads/my-image.jpg):", "uploads/" + file.name);
+                                            if (manualPath) {
+                                              const newProjs = [...editedData.projects];
+                                              newProjs[idx].image = manualPath;
+                                              setEditedData({...editedData, projects: newProjs});
+                                            }
+                                            return;
+                                          }
+
                                           try {
                                             const formData = new FormData();
                                             formData.append("image", file);
@@ -1006,6 +1045,17 @@ export default function App() {
                                        onChange={async (e) => {
                                           const file = e.target.files?.[0];
                                           if (!file) return;
+
+                                          if (window.location.hostname.includes("github.io") || window.location.hostname.includes("pages.dev")) {
+                                            const manualPath = prompt("GitHub Pages is static. To add an image:\n1. Upload your file to 'public/uploads/' on GitHub.\n2. Enter the path here (e.g., uploads/my-image.jpg):", "uploads/" + file.name);
+                                            if (manualPath) {
+                                              const newProjs = [...editedData.projects];
+                                              newProjs[idx].hoverImage = manualPath;
+                                              setEditedData({...editedData, projects: newProjs});
+                                            }
+                                            return;
+                                          }
+
                                           try {
                                             const formData = new FormData();
                                             formData.append("image", file);
