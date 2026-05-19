@@ -112,11 +112,10 @@
     {
       "id": "6",
       "title": "AI cooking assistant app",
-      "name": "KENCHEF",
+      "name": "KenCheF",
       "tags": [
-        "SynBio",
-        "CAD",
-        "Simulation"
+        "Firebase",
+        "Gemini AI",
       ],
       "image": "uploads/kenchef logo.png",
       "url": "#",
@@ -131,9 +130,9 @@
       "title": "client management system - Billing, hour tracking etc.",
       "name": "Client Work Tracker",
       "tags": [
-        "Data Vis",
-        "D3.js",
-        "Genomics"
+        "Local DB",
+        "Javascript",
+        
       ],
       "image": "uploads/Management.png",
       "url": "#",
@@ -148,9 +147,8 @@
       "title": "Legal AI contract generator (RAG + dual-agent). Advanced legal research and document drafting.",
       "name": "Contract generator",
       "tags": [
-        "ML",
-        "Python",
-        "Pharma"
+        "RAG",
+        "Dual Agent",
       ],
       "image": "uploads/Contract logo.png",
       "url": "#",
@@ -163,7 +161,7 @@
       "id": "0.38749757031695",
       "title": "Chrome extension - find the best bulk price per unit",
       "name": "Pack Saver",
-      "tags": [],
+      "tags": ["Chrome Extension",],
       "image": "uploads/1400_Marqueez.jpg",
       "url": "#",
       "cardDescription": "Chrome extension that detects bulk product listings and surfaces the real per-unit cost, highlighting the best deal.\n",
