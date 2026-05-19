@@ -1,7 +1,7 @@
 {
   "profile": {
     "name": "Tamir Biezuner, PhD",
-    "title": "Entrepreneur. Genomics expert. AI builder.",
+    "title": "Entrepreneur. AI builder. Genomics expert.",
     "intro": "I build at the intersection of genomics and AI.",
     "description": "Entrepreneur, builder and consultant. Co-founded **Sequentify**, a patent-backed genomics company that raised **$7M** and led development from R&D to an ISO 13485-accredited product. Today, building AI tools that matter.\n\nPassionate about science and technology.",
     "avatarUrl": "uploads/tamir-headshot.jpg",
@@ -100,7 +100,7 @@
       "tags": [
         "Life Science AI",
         "NLP",
-        "pgvector"
+        "Elasticsearch"
       ],
       "image": "uploads/postdoc lookup logo.png",
       "url": "#",
@@ -114,8 +114,9 @@
       "title": "AI cooking assistant app",
       "name": "KENCHEF",
       "tags": [
-        "Firebase",
-        "Vercel",
+        "SynBio",
+        "CAD",
+        "Simulation"
       ],
       "image": "uploads/kenchef logo.png",
       "url": "#",
@@ -130,8 +131,9 @@
       "title": "client management system - Billing, hour tracking etc.",
       "name": "Client Work Tracker",
       "tags": [
-        "HTML",
-        "Imported DB",
+        "Data Vis",
+        "D3.js",
+        "Genomics"
       ],
       "image": "uploads/Management.png",
       "url": "#",
@@ -146,8 +148,9 @@
       "title": "Legal AI contract generator (RAG + dual-agent). Advanced legal research and document drafting.",
       "name": "Contract generator",
       "tags": [
-        "RAG",
-        "Dual-Agent",
+        "ML",
+        "Python",
+        "Pharma"
       ],
       "image": "uploads/Contract logo.png",
       "url": "#",
@@ -160,9 +163,7 @@
       "id": "0.38749757031695",
       "title": "Chrome extension - find the best bulk price per unit",
       "name": "Pack Saver",
-      "tags": [        
-        "Chrome Extension",
-      ],
+      "tags": [],
       "image": "uploads/1400_Marqueez.jpg",
       "url": "#",
       "cardDescription": "Chrome extension that detects bulk product listings and surfaces the real per-unit cost, highlighting the best deal.\n",
