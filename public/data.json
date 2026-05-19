@@ -115,13 +115,13 @@
       "name": "KenCheF",
       "tags": [
         "Firebase",
-        "Gemini AI",
+        "Gemini AI"
       ],
       "image": "uploads/kenchef logo.png",
       "url": "#",
       "websiteUrl": "https://KenChef.site",
       "videoUrl": "https://youtu.be/yOLUGjUV8l0?si=z-Mf2yKgh19h6uHF",
-      "learnMoreContent": "KenChef - the AI cooking assistant that turns any dish idea into a beautifully illustrated, step-by-step recipe in seconds.\n                                                                                                                                  \n  Type any dish\n  Get AI-generated illustrations for every step\n  Listen - Each step is narrated for hands free kitchen work\n  ",
+      "learnMoreContent": "KenChef - the AI cooking assistant that turns any dish idea into a beautifully illustrated, step-by-step recipe in seconds.\n                                                                                                                        \n  Type any dish\n  Get AI-generated illustrations for every step\n  Listen - Each step is narrated for hands free kitchen work\n  ",
       "cardDescription": "AI cooking assistant app that turns any dish idea into a beautifully illustrated recipe.",
       "hoverImage": "uploads/receipe2.png"
     },
@@ -131,8 +131,7 @@
       "name": "Client Work Tracker",
       "tags": [
         "Local DB",
-        "Javascript",
-        
+        "Javascript"
       ],
       "image": "uploads/Management.png",
       "url": "#",
@@ -148,7 +147,7 @@
       "name": "Contract generator",
       "tags": [
         "RAG",
-        "Dual Agent",
+        "Dual Agent"
       ],
       "image": "uploads/Contract logo.png",
       "url": "#",
@@ -161,7 +160,9 @@
       "id": "0.38749757031695",
       "title": "Chrome extension - find the best bulk price per unit",
       "name": "Pack Saver",
-      "tags": ["Chrome Extension",],
+      "tags": [
+        "Chrome Extension"
+      ],
       "image": "uploads/1400_Marqueez.jpg",
       "url": "#",
       "cardDescription": "Chrome extension that detects bulk product listings and surfaces the real per-unit cost, highlighting the best deal.\n",
