@@ -1,9 +1,10 @@
 {
   "profile": {
     "name": "Tamir Biezuner, PhD",
-    "title": "Entrepreneur. AI builder. Genomics expert.",
-    "intro": "I build at the intersection of genomics and AI.",
-    "description": "Entrepreneur, builder and consultant. Co-founded **Sequentify**, a patent-backed genomics company that raised **$7M** and led development from R&D to an ISO 13485-accredited product. Today, building AI tools that matter.\n\nPassionate about science and technology.",
+    "title": "Entrepreneur. Genomics expert. AI builder.",
+    "intro": "I build at the intersection of biology and AI.",
+    "description": "Co-founded **Sequentify**, a patent-backed genomics company that raised **$7M** and led its product development from R&D to an ISO 13485-accredited product. Backed by over 20 years in research labs and a PhD from the Weizmann Institute of Science, I'm an expert in taking initial concepts through research and development, to a working product.
+    \n\nPassionate about science and technology.",
     "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800",
     "links": [
       {
@@ -100,7 +101,7 @@
       "tags": [
         "Life Science AI",
         "NLP",
-        "Elasticsearch"
+        "pgvector"
       ],
       "image": "uploads/1779050017029-686513970-_2026-05-17_202105.png",
       "url": "#",
@@ -112,11 +113,11 @@
     {
       "id": "6",
       "title": "AI cooking assistant app",
-      "name": "KENCHEF",
+      "name": "KenChef",
       "tags": [
-        "SynBio",
-        "CAD",
-        "Simulation"
+        "Gemini AI",
+        "Vercel",
+        "Meta Integration"
       ],
       "image": "uploads/1779050090049-895818095-_2026-05-17_203449.png",
       "url": "#",
@@ -131,9 +132,10 @@
       "title": "client management system - Billing, hour tracking etc.",
       "name": "Client Work Tracker",
       "tags": [
-        "Data Vis",
-        "D3.js",
-        "Genomics"
+        "Local db",
+        "backup support"
+        
+        
       ],
       "image": "uploads/1779050220355-258775066-2026-05-17_165445.png",
       "url": "#",
@@ -148,9 +150,9 @@
       "title": "Legal AI contract generator (RAG + dual-agent). Advanced legal research and document drafting.",
       "name": "Contract generator",
       "tags": [
-        "ML",
-        "Python",
-        "Pharma"
+        "Dual-agent",
+        "RAG",
+        "Vercel"
       ],
       "image": "uploads/1779050502511-199160310-_2026-05-17_181132.png",
       "url": "#",
@@ -174,7 +176,7 @@
     }
   ],
   "services": {
-    "intro": "Open for consulting and project-based work. I work best where deep domain expertise and practical AI meet — where the biology and the code are equally important.",
+    "intro": "Open for consulting and project-based work. I work best where I combine multiple disciplines to improve healthcare."
     "items": [
       {
         "icon": "Dna",
