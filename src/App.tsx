@@ -243,7 +243,7 @@ export default function App() {
                 className="inline-flex items-center gap-2 px-3 py-1 bg-brand-primary/10 text-brand-primary rounded-full"
               >
                 <div className="w-1.5 h-1.5 bg-brand-primary rounded-full animate-pulse" />
-                <span className="font-mono text-[11px] uppercase font-bold tracking-wider">Open for roles & consulting</span>
+                <span className="font-mono text-[11px] uppercase font-bold tracking-wider">Open for consulting</span>
               </motion.div>
               
               <motion.h1 
