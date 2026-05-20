@@ -122,7 +122,7 @@
       "url": "#",
       "websiteUrl": "https://KenChef.site",
       "videoUrl": "https://youtu.be/yOLUGjUV8l0?si=z-Mf2yKgh19h6uHF",
-      "learnMoreContent": "KenChef - the AI cooking assistant that turns any dish idea into a beautifully illustrated, step-by-step recipe in seconds.\n                                                                                                                                  \n  Type any dish\n  Get AI-generated illustrations for every step\n  Listen - Each step is narrated for hands free kitchen work\n  ",
+      "learnMoreContent": "KenChef - the AI cooking assistant that turns any dish idea into a beautifully illustrated, step-by-step recipe in seconds.\n                                                                                                                        \n  Type any dish\n  Get AI-generated illustrations for every step\n  Listen - Each step is narrated for hands free kitchen work\n  ",
       "cardDescription": "AI cooking assistant app that turns any dish idea into a beautifully illustrated recipe.",
       "hoverImage": "uploads/1779050073218-615219733-main_screen.png"
     },
@@ -133,8 +133,6 @@
       "tags": [
         "Local db",
         "backup support"
-        
-        
       ],
       "image": "uploads/1779050220355-258775066-2026-05-17_165445.png",
       "url": "#",
@@ -175,7 +173,7 @@
     }
   ],
   "services": {
-    "intro": "Open for consulting and project-based work. I work best where I combine multiple disciplines to improve healthcare."
+    "intro": "Open for consulting and project-based work. I work best where I combine multiple disciplines to improve healthcare.",
     "items": [
       {
         "icon": "Dna",
