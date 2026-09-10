@@ -97,11 +97,15 @@
       "id": "0.23227718756042093",
       "title": "Scholar Pair: Find the research collaborator your work is missing",
       "name": "Scholar Pair",
-      "tags": [],
-      "image": "uploads/scholar-pair-logo.jpg",
+      "tags": [
+        "Life Science AI",
+        "Research Discovery",
+        "Academic Collaboration"
+      ],
+      "image": "uploads/scholar-pair-logo.jpeg",
       "url": "#",
       "cardDescription": "An AI multistep search algorithm that searches a curated academic experts database (>10K researchers) to enable accurate, recommended list of academic collaborators.",
-      "hoverImage": "uploads/scholar-pair-logo.jpg",
+      "hoverImage": "uploads/scholar-pair-logo.jpeg",
       "websiteUrl": "https://scholarpair.online",
       "videoUrl": "https://youtu.be/6onrsQS3Eks",
       "learnMoreContent": "Finding the right research collaborator is slow and network-bound, and a general chatbot will confidently invent names and papers that do not exist.\n\nScholarPair reads your project in plain words and returns a ranked, explained shortlist of real principal investigators: why each one fits, the gap they fill, and the actual publications that prove it. It even tells you honestly when there is no strong match.\n\nBuilt for researchers hunting a grant partner, biotech and pharma teams looking for a niche expert, and VCs and TTOs who need the right academic to consult."
