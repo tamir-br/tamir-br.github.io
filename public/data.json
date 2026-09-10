@@ -104,7 +104,7 @@
       ],
       "image": "uploads/scholar-pair-logo.jpeg",
       "url": "#",
-      "cardDescription": "An AI multistep search algorithm that searches a curated academic experts database (>10K researchers) to enable accurate, recommended list of academic collaborators.",
+      "cardDescription": "A search engine for academic partnerships.",
       "hoverImage": "uploads/scholar-pair-logo.jpeg",
       "websiteUrl": "https://scholarpair.online",
       "videoUrl": "https://youtu.be/6onrsQS3Eks",
@@ -139,7 +139,7 @@
       "websiteUrl": "https://KenChef.site",
       "videoUrl": "https://youtu.be/yOLUGjUV8l0?si=z-Mf2yKgh19h6uHF",
       "learnMoreContent": "KenChef - the AI cooking assistant that turns any dish idea into a beautifully illustrated, step-by-step recipe in seconds.\n                                                                                                                        \n  Type any dish\n  Get AI-generated illustrations for every step\n  Listen - Each step is narrated for hands free kitchen work\n  ",
-      "cardDescription": "AI cooking assistant app that turns any dish idea into a beautifully illustrated recipe.",
+      "cardDescription": "AI mobile cooking assistant app",
       "hoverImage": "uploads/receipe2.png"
     },
     {
