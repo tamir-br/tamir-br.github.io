@@ -94,6 +94,19 @@
       "hoverImage": "uploads/Histone screenshot.png"
     },
     {
+      "id": "0.23227718756042093",
+      "title": "Scholar Pair: Find the research collaborator your work is missing",
+      "name": "Scholar Pair",
+      "tags": [],
+      "image": "uploads/scholar-pair-logo.jpg",
+      "url": "#",
+      "cardDescription": "An AI multistep search algorithm that searches a curated academic experts database (>10K researchers) to enable accurate, recommended list of academic collaborators.",
+      "hoverImage": "uploads/scholar-pair-logo.jpg",
+      "websiteUrl": "https://scholarpair.online",
+      "videoUrl": "https://youtu.be/6onrsQS3Eks",
+      "learnMoreContent": "Finding the right research collaborator is slow and network-bound, and a general chatbot will confidently invent names and papers that do not exist.\n\nScholarPair reads your project in plain words and returns a ranked, explained shortlist of real principal investigators: why each one fits, the gap they fill, and the actual publications that prove it. It even tells you honestly when there is no strong match.\n\nBuilt for researchers hunting a grant partner, biotech and pharma teams looking for a niche expert, and VCs and TTOs who need the right academic to consult."
+    },
+    {
       "id": "2",
       "title": "Postdoc discovery platform. Find the perfect candidate with AI-powered search.",
       "name": "Postdoc Lookup",
@@ -170,19 +183,6 @@
       "websiteUrl": "https://chromewebstore.google.com/detail/pack-saver-find-best-bulk/ielgindoagjdlamfkpioiokokfdhpmge",
       "videoUrl": "https://www.youtube.com/watch?v=cP961MSi1RQ&embeds_referring_euri=https%3A%2F%2Fchromewebstore.google.com%2F",
       "learnMoreContent": "Instantly find the best bulk deals. See price per item across Amazon, Walmart, AliExpress & Temu. Never overpay again!\n\nStop Overpaying for Bulk. See the Real Price with Pack Saver.\nYou know the feeling: you need to buy a multipack, but comparing the \"$6.99 for a 100-pack\" to the \"$15.99 for a 400-pack\" means pulling out a calculator. Shopping sites are designed to confuse you by sorting by total price, not by true value.\n\n🤔 The Problem: The smaller, seemingly cheaper pack is often 60% more expensive per item than the larger one—and you'd never know without tedious math.\n\n✅ The Pack Saver Solution: This extension instantly calculates the price per item for every bulk pack on the page. In seconds, you see which option genuinely saves you the most money.\n\n🎯 What You Get: Instant, Effortless Savings\nBest Deal Highlighted: A golden \"Best Value\" badge instantly points out the clear winner. No more guesswork.\n\nPrice Per Item: See the real cost comparison for every product.\n\nTop 3 Deals Ranked: Quickly compare the three most cost-effective choices.\n\nOne-Click Savings: Jump straight to the best-value item with a single click.\n\n💰 Supported Platforms:\nAmazon, Walmart, AliExpress, & Temu\n\n🔒 Privacy First: Zero Tracking, Always On\nPack Saver is a privacy-first tool. It performs all calculations directly in your browser. We have zero data collection, no tracking, and it works completely offline.\n\nStop overpaying for bulk. Install Pack Saver and let us find your real savings."
-    },
-    {
-      "id": "0.23227718756042093",
-      "title": "Scholar Pair: Find the research collaborator your work is missing",
-      "name": "Scholar Pair",
-      "tags": [],
-      "image": "uploads/צילום מסך 2026-09-10 105534.png",
-      "url": "#",
-      "cardDescription": "An AI multistep search algorithm that searches a curated academic experts database (>10K researchers) to enable accurate, recommended list of academic collaborators.",
-      "hoverImage": "uploads/צילום מסך 2026-09-10 105534.png",
-      "websiteUrl": "https://scholarpair.online",
-      "videoUrl": "https://youtu.be/6onrsQS3Eks",
-      "learnMoreContent": "Finding the right research collaborator is slow and network-bound, and a general chatbot will confidently invent names and papers that do not exist.\n\nScholarPair reads your project in plain words and returns a ranked, explained shortlist of real principal investigators: why each one fits, the gap they fill, and the actual publications that prove it. It even tells you honestly when there is no strong match.\n\nBuilt for researchers hunting a grant partner, biotech and pharma teams looking for a niche expert, and VCs and TTOs who need the right academic to consult."
     }
   ],
   "services": {
