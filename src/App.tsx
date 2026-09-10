@@ -193,7 +193,7 @@ export default function App() {
     );
   }
 
-  const displayedProjects = showAllProjects ? data.projects : data.projects.slice(0, 6);
+  const displayedProjects = showAllProjects ? data.projects : data.projects.slice(0, 9);
 
   return (
     <div className="min-h-screen bg-brand-surface text-brand-ink selection:bg-brand-primary selection:text-white">
